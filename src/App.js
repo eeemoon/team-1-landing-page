@@ -12,7 +12,7 @@ function App() {
 
         <Body src="/Alex.jpg" name="Олександр" position="Sofware developer" />
 
-        <Body src="/avatar-default.png" name="Юрій" position="UI/UX designer" />
+        <Body src="/Yurii.jpg" name="Юрій" position="UI/UX designer" />
 
         <Body src="/avatar-default.png" name="" position="" />
 
