@@ -1,18 +1,20 @@
 import React from "react";
 
-const Body = () => {
+const Body = ({src, name, position }) => {
   return (
     <main style={styles.body}>
       <div style={styles.card}>
-        <img src={"/avatar-default.png"} alt="John Doe" style={styles.photo} />
+        <img src={src} alt={name} style={styles.photo} />
         <div style={styles.textContainer}>
-          <h2 style={styles.name}>John Doe</h2>
-          <p style={styles.position}>Software engineer</p>
+          <h2 style={styles.name}>{name}</h2>
+          <p style={styles.position}>{position}</p>
         </div>
       </div>
     </main>
   );
 };
+
+
 
 const styles = {
   body: {
@@ -20,7 +22,8 @@ const styles = {
     flexWrap: "wrap",
   },
   card: {
-    width: "150px",
+    width: "250px",
+    height: "200px",
     padding: "1em",
     borderRadius: "10px",
     backgroundColor: "#fff",
