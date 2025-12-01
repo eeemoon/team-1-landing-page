@@ -10,12 +10,12 @@ function App() {
 
       <div className="Team">
 
-        <Body src="/Alex.jpg" name="Олександр" position="Sofware developer" />
+        <Body src="/Alex.jpg" name="Олександр" position="Software Developer" />
 
-        <Body src="/Yurii.jpg" name="Юрій" position="UI/UX designer" />
+        <Body src="/Yurii.jpg" name="Юрій" position="UI/UX Designer" />
 
 
-        <Body src="/Alek_photo.jpg" name="Анастасія" position="Product manager" />
+        <Body src="/Alek_photo.jpg" name="Анастасія" position="Product Manager" />
 
         <Body src="/artem.jpg" name="Артем" position="Business Analyst" />
 
