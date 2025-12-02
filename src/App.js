@@ -14,13 +14,12 @@ function App() {
 
         <Body src="/Yurii.jpg" name="Юрій" position="UI/UX Designer" />
 
-
         <Body src="/Alek_photo.jpg" name="Анастасія" position="Product Manager" />
 
         <Body src="/artem.jpg" name="Артем" position="Business Analyst" />
 
-        <Body src="/Osama.jpg" name="Osama bin laden" position="Security"> </Body>
-      </div>
+        <Body src="/Osama.jpg" name="Osama bin laden" position="Security" />
+       </div>
     </div>
   );
 }
