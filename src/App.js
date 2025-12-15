@@ -9,17 +9,12 @@ function App() {
       <Header />
 
       <div className="Team">
-
         <Body src="/Alex.jpg" name="Олександр" position="Software Developer" />
-
         <Body src="/Yurii.jpg" name="Юрій" position="UI/UX Designer" />
-
         <Body src="/Alek_photo.jpg" name="Анастасія" position="Product Manager" />
-
         <Body src="/artem.jpg" name="Артем" position="Business Analyst" />
-
         <Body src="/Osama.jpg" name="Osama bin laden" position="Security" />
-       </div>
+      </div>
     </div>
   );
 }
