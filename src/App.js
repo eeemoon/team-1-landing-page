@@ -18,7 +18,7 @@ function App() {
 
         <Body src="/artem.jpg" name="Артем" position="Business Analyst" />
 
-        <Body src="/Osama.jpg" name="Osama bin" position="Security" />
+        <Body src="/Osama.jpg" name="Osama bin laden" position="Security" />
        </div>
     </div>
   );
